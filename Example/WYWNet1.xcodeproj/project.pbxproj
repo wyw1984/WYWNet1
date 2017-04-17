@@ -63,6 +63,7 @@
 		7175694B05BD5E324C0D3E36 /* Pods_WYWNet1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYWNet1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8518B9A51EA4A1AD0067D917 /* NetManager1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager1.h; sourceTree = "<group>"; };
 		8518B9A61EA4A1AD0067D917 /* NetManager1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager1.m; sourceTree = "<group>"; };
+		8518B9D81EA4A6870067D917 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC1A0AE0073AAE2CF01561BE /* Pods_WYWNet1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYWNet1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B182095AE5AE1489A47B8DE0 /* WYWNet1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYWNet1.podspec; path = ../WYWNet1.podspec; sourceTree = "<group>"; };
@@ -133,6 +134,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8518B9D81EA4A6870067D917 /* SystemConfiguration.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
