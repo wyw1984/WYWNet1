@@ -1,0 +1,31 @@
+{
+  "name": "WYWNet1",
+  "version": "0.1.0",
+  "summary": "A short description of WYWNet1.",
+  "description": "An optional longer description of WYWNet1\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/wyw1984/WYWNet1",
+  "license": "MIT",
+  "authors": {
+    "qq2126724184": "2126724184@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wyw1984/WYWNet1.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "WYWNet1/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "WYWNet1": [
+      "WYWNet1/Assets/*.png"
+    ]
+  },
+  "public_header_files": "WYWNet1/Classes/**/*.h",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}

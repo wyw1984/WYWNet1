@@ -1,0 +1,6 @@
+framework module WYWNet1 {
+  umbrella header "WYWNet1-umbrella.h"
+
+  export *
+  module * { export * }
+}

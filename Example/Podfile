@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WYWNet1_Example' do
+  pod 'WYWNet1', :path => '../'
+
+  target 'WYWNet1_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
