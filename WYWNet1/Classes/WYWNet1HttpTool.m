@@ -7,6 +7,7 @@
 //
 
 #import "WYWNet1HttpTool.h"
+#import <AFNetworking/AFNetworking.h>
 #import "WYWNet1HttpHelper.h"
 
 @implementation WYWNet1HttpTool
@@ -93,27 +94,5 @@
     }];
 }
 
-+ (void)post:(NSString *)url params:(NSDictionary *)params constructingBodyWithBlock:(void (^)(id <AFMultipartFormData> formData))block success:(void (^)(id json))success failure:(void (^)(NSError *error))failure
-{
-    // 1.创建请求管理者
-    AFHTTPSessionManager *mgr = [WYWNet1HttpTool manager];
-    
-    // 2.发送请求
-    [mgr POST:url parameters:params constructingBodyWithBlock:block progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        if (success)
-        {
-            success(responseObject);
-            [WYWNet1HttpHelper log:responseObject url:url];
-            
-        }
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        if (failure)
-        {
-            failure(error);
-            [WYWNet1HttpHelper logError:error url:url];
-            
-        }
-    }];
-}
 
 @end

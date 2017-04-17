@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "WYWNet1"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "A short description of WYWNet1."
   s.description      = <<-DESC
                        An optional longer description of WYWNet1
